@@ -32,7 +32,7 @@ Para ejecutar el proyecto en un servidor Apache con la base de datos incluida, u
 
 **PASO 5** Importación del archivo bd_elecciones.sql:
 - Dentro de PHPMyAdmin, selecciona la opción "Importar" en el menú superior.
-- Selecciona el archivo bd_elecciones.sql que se encuentra en la carpeta **basededato** del proyecto y presiona "Continuar".
+- Selecciona el archivo bd_elecciones.sql que se encuentra en la carpeta **basededatos** del proyecto y presiona "Continuar".
 - Espera a que se complete la importación del archivo.
 
 **PASO 6** Inicio de Apache:

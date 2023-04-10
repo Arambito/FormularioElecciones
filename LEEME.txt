@@ -23,7 +23,7 @@ b. Se abrirá el panel de control de PHPMyAdmin, donde podrás administrar tu ba
 5.- Importación del archivo bd_elecciones.sql:
 
 a. Dentro de PHPMyAdmin, selecciona la opción "Importar" en el menú superior.
-b. Selecciona el archivo bd_elecciones.sql que se encuentra en la carpeta 'basededato' del proyecto y presiona "Continuar".
+b. Selecciona el archivo bd_elecciones.sql que se encuentra en la carpeta 'basededatos' del proyecto y presiona "Continuar".
 c. Espera a que se complete la importación del archivo.
 
 6.- Inicio de Apache:
