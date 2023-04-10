@@ -1,0 +1,39 @@
+Instalación del proyecto FormElecciones
+
+1.- Descarga e instalación de XAMPP:
+
+a. Accede al sitio web oficial de XAMPP y descarga la versión adecuada para tu sistema operativo.
+b. Ejecuta el instalador y sigue las instrucciones del asistente para completar la instalación.
+
+2.- Ubicación de la carpeta de htdocs:
+
+a. Una vez instalado XAMPP, accede a la carpeta de instalación y busca la ruta '/[RutadeXampp]/htdocs/'.
+b. Dentro de la carpeta htdocs, arrastra y suelta la carpeta del proyecto que acabas de descargar.
+
+3.- Inicio de MySQL:
+
+a. Abre XAMPP y presiona el botón "Start" en la opción de MySQL.
+b. Si la base de datos ya está en ejecución, el botón aparecerá en verde y se mostrará el mensaje "Running".
+
+4.- Acceso a PHPMyAdmin:
+
+a. Abre tu navegador web y escribe "localhost/phpmyadmin" en la barra de direcciones.
+b. Se abrirá el panel de control de PHPMyAdmin, donde podrás administrar tu base de datos y crear una con el nombre que tú elijas.
+
+5.- Importación del archivo bd_elecciones.sql:
+
+a. Dentro de PHPMyAdmin, selecciona la opción "Importar" en el menú superior.
+b. Selecciona el archivo bd_elecciones.sql que se encuentra en la carpeta 'basededato' del proyecto y presiona "Continuar".
+c. Espera a que se complete la importación del archivo.
+
+6.- Inicio de Apache:
+
+a. Abre XAMPP y presiona el botón "Start" en la opción de Apache.
+b. Si el servidor web ya está en ejecución, el botón aparecerá en verde y se mostrará el mensaje "Running".
+
+7.- Configuración de variables:
+
+a. Accede a la ruta '/[RutadeXampp]/htdocs/core/config.php'.
+b. Ingresa el nombre correspondiente a la base de datos que asignaste anteriormente en la línea 24.
+c. Abre tu navegador web y escribe "http://localhost/FormElecciones/" en la barra de direcciones.
+d. El sistema estará disponible para su uso.
